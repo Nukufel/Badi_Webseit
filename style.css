@@ -1,0 +1,25 @@
+#badisTable{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+div:not(#badisTable){
+    width: 300px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: black;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+
+    color: white;
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
