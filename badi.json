@@ -1,0 +1,129 @@
+{
+	"pools": [{
+		"name": "Flussbad Au-Höngg",
+		"temperature": 23,
+		"updatedAt": "Di, 30.08.2022 08:42",
+		"open": true,
+		"openText": "offen",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/flussbad_au_hoengg.html"
+	}, {
+		"name": "Flussbad Oberer Letten",
+		"temperature": 23,
+		"updatedAt": "Di, 29.08.2022 09:28",
+		"open": true,
+		"openText": "offen , Bad ist weinig besucht",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/flussbad_oberer_letten.html"
+	}, {
+		"name": "Flussbad Unterer Letten",
+		"temperature": 22,
+		"updatedAt": "Di, 30.08.2022 08:49",
+		"open": true,
+		"openText": "offen , Bad ist wenig besucht.",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/flussbad_unterer_letten.html"
+	}, {
+		"name": "Flussbad Unterer Letten Flussteil",
+		"temperature": 30,
+		"updatedAt": "Di, 30.08.2022 13:55",
+		"open": true,
+		"openText": "offen Bad ist wenig besucht",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/flussbad-unterer-letten-flussteil.html"
+	}, {
+		"name": "Frauenbad Stadthausquai",
+		"temperature": 23,
+		"updatedAt": "Di, 28.08.2022 12:44",
+		"open": true,
+		"openText": "offen das Bad ist mittelmässig besucht",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/frauenbad_stadthausquai.html"
+	}, {
+		"name": "Freibad Allenmoos",
+		"temperature": 24,
+		"updatedAt": "Di, 30.08.2022 08:56",
+		"open": true,
+		"openText": "offen Bad ist wenig besucht",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/freibad_allenmoos.html"
+	}, {
+		"name": "Freibad Auhof",
+		"temperature": 26,
+		"updatedAt": "Di, 30.08.2022 08:55",
+		"open": true,
+		"openText": "offen",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/freibad_auhof.html"
+	}, {
+		"name": "Freibad Heuried",
+		"temperature": 24,
+		"updatedAt": "Di, 21.08.2022 09:05",
+		"open": true,
+		"openText": "offen",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/freibad_heuried.html"
+	}, {
+		"name": "Freibad Letzigraben",
+		"temperature": 22,
+		"updatedAt": "Di, 30.08.2022 06:35",
+		"open": true,
+		"openText": "offen Bad ist wenig besucht",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/freibad_letzigraben.html"
+	}, {
+		"name": "Freibad Seebach",
+		"temperature": 17,
+		"updatedAt": "Di, 30.08.2022 06:56",
+		"open": true,
+		"openText": "offen",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/freibad_seebach.html"
+	}, {
+		"name": "Freibad Zwischen den Hölzern",
+		"temperature": 22,
+		"updatedAt": "Di, 30.08.2022 08:51",
+		"open": true,
+		"openText": "offen Bad ist wenig besucht. Grillstelle gesperrt wegen Kant. Feuerverbot.",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/freibad_zwischen_den_hoelzern.html"
+	}, {
+		"name": "Männerbad Schanzengraben",
+		"temperature": 23,
+		"updatedAt": "Di, 30.08.2022 10:53",
+		"open": true,
+		"openText": "offen",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/flussbad_schanzengraben.html"
+	}, {
+		"name": "Seebad Enge",
+		"temperature": 12,
+		"updatedAt": "Di, 29.08.2022 08:16",
+		"open": true,
+		"openText": "offen",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/seebad_enge.html"
+	}, {
+		"name": "Seebad Katzensee",
+		"temperature": 23,
+		"updatedAt": "Di, 30.08.2022 09:01",
+		"open": false,
+		"openText": "Wegen Betriebsferien geschlossen.",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/seebad_katzensee.html"
+	}, {
+		"name": "Seebad Utoquai",
+		"temperature": 23,
+		"updatedAt": "Di, 30.08.2022 06:25",
+		"open": true,
+		"openText": "offen",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/seebad_utoquai.html"
+	}, {
+		"name": "Strandbad Mythenquai",
+		"temperature": 35,
+		"updatedAt": "Di, 30.08.2022 13:39",
+		"open": true,
+		"openText": "offen Bad ist wenig besucht",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/strandbad_mythenquai.html"
+	}, {
+		"name": "Strandbad Tiefenbrunnen",
+		"temperature": 23,
+		"updatedAt": "Di, 30.08.2022 08:55",
+		"open": true,
+		"openText": "offen Bad ist wenig besucht",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/strandbad_tiefenbrunnen.html"
+	}, {
+		"name": "Strandbad Wollishofen",
+		"temperature": 24,
+		"updatedAt": "Di, 30.08.2022 10:09",
+		"open": false,
+		"openText": "das Bad ist geschlossen",
+		"url": "https://www.stadt-zuerich.ch/content/ssd/de/index/sport/schwimmen/sommerbaeder/strandbad_wollishofen.html"
+	}]
+}
