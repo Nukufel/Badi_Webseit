@@ -21,12 +21,8 @@ function getData(){
             badiName.innerText = badis[i].name;
 
             var celcius = badiInfo.insertRow(-1);
-            celcius.innerText = "Wassertemperatur: "+(Math.round((badis[i].temperature)*10)/10)+"°C";
+            celcius.innerText = "Wassertemperatur: "+(Math.round((badis[i].temperature)*10)/10)+"°C / "+(Math.round(((badis[i].temperature*(9/5))+32)*10)/10)+"°F";
             celcius.style.color = "rgb(100,"+(100+(5*badis[i].temperature))+","+(255-(5*badis[i].temperature))+")";
-
-            var farenheit = badiInfo.insertRow(-1);
-            farenheit.innerText = "Wassertemperatur: "+(Math.round(((badis[i].temperature*(9/5))+32)*10)/10)+"°F";
-            farenheit.style.color = "rgb(100,"+(100+(5*badis[i].temperature))+","+(255-(5*badis[i].temperature))+")";
 
             badiInfo.insertRow(-1).innerText = "Erneuert vor "+(dhms(Date.now()-convertDate(badis[i].updatedAt)));
 
