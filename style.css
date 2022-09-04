@@ -1,15 +1,31 @@
-#badisTable{
+body{
+    display: flex;
+    flex-direction: column;
+    margin: 0px;
+    background-image: url("02_Mythenquai.jpg");
+    font-family: "Arial Rounded MT Bold";
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+    min-width: 100%;
+    min-height: 100%;
+}
+
+#badisTable {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
 
 }
-div:not(#badisTable){
+
+.divBack{
     display: flex;
     justify-content: center;
 
-    width: 300px;
-    height: 160px;
+    width: 350px;
+    height: 180px;
     margin: 10px;
 
     text-align: center;
@@ -19,6 +35,10 @@ div:not(#badisTable){
     border-radius: 15px 20% 15px 20%;
 
     color: white;
+}
+
+.divBack:hover{
+    background-color: darkcyan;
 }
 
 a{
@@ -55,25 +75,39 @@ a:not(#badisTable div a ):hover {
     background-color: darkcyan;
 }
 
-.badisTable div:hover{
-    background-color: darkcyan
-}
-
 li {
     border-right: 1px solid white;
     width: 50%;
+    font-size: 30px;
 }
 
 li:last-child {
     border-right: none;
 }
 
-body{
-    margin: 0px;
+.divPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: black;
+    width: 700px;
+    height: 700px;
+    border-radius: 15px 20% 15px 20%;
+    margin: 5%;
+
+
 }
 
+.divPageFlex{
+    display: flex;
+    justify-content: center;
+}
 
+.divText{
+    color: white;
+    text-align: center;
+    margin: 10%;
+    font-size: 150%;
 
-
-
-
+}

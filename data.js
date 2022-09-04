@@ -11,6 +11,7 @@ function getData(){
 
         for (let i in badis){
             var div = document.createElement("div");
+            div.classList.add("divBack");
             var aLink = document.createElement("a");
             var badiInfo = document.createElement("table");
 
