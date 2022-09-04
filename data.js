@@ -16,7 +16,9 @@ function getData(){
             var badiInfo = document.createElement("table");
 
 
-            badiInfo.insertRow(-1).innerText = badis[i].name;
+            var badiName = badiInfo.insertRow(-1);
+            badiName.classList.add("badiName");
+            badiName.innerText = badis[i].name;
 
             var celcius = badiInfo.insertRow(-1);
             celcius.innerText = "Wassertemperatur: "+(Math.round((badis[i].temperature)*10)/10)+"°C";
@@ -28,7 +30,15 @@ function getData(){
 
             badiInfo.insertRow(-1).innerText = "Zuletzt Erneuert vor: "+(dhms(Date.now()-convertDate(badis[i].updatedAt)));
 
-            badiInfo.insertRow(-1).innerText = badis[i].openText;
+            if (badis[i].open === true){
+                badiInfo.insertRow(-1).innerText = badis[i].openText;
+            }else{
+                var badiClosed = badiInfo.insertRow(-1);
+                badiClosed.innerText = badis[i].openText;
+                div.classList.add("badiClosed");
+
+            }
+
 
             aLink.href = badis[i].url;
             aLink.appendChild(badiInfo);

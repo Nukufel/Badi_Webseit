@@ -111,3 +111,15 @@ li:last-child {
     font-size: 150%;
 
 }
+
+.badiClosed{
+    background-color: darkred;
+}
+
+.badiClosed:hover{
+    background-color: indianred;
+}
+
+.badiName{
+    font-size: 130%;
+}
