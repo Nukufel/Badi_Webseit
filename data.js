@@ -28,7 +28,7 @@ function getData(){
             farenheit.innerText = "Wassertemperatur: "+(Math.round(((badis[i].temperature*(9/5))+32)*10)/10)+"°F";
             farenheit.style.color = "rgb(100,"+(100+(5*badis[i].temperature))+","+(255-(5*badis[i].temperature))+")";
 
-            badiInfo.insertRow(-1).innerText = "Zuletzt Erneuert vor: "+(dhms(Date.now()-convertDate(badis[i].updatedAt)));
+            badiInfo.insertRow(-1).innerText = "Erneuert vor "+(dhms(Date.now()-convertDate(badis[i].updatedAt)));
 
             if (badis[i].open === true){
                 badiInfo.insertRow(-1).innerText = badis[i].openText;
@@ -63,11 +63,34 @@ function convertDate(date){
     It converts milliseconds to days hours minutes and seconds.
  */
 function dhms(t) {
-    d = Math.floor(t / (1000 * 60 * 60 * 24)),
+        d = Math.floor(t / (1000 * 60 * 60 * 24)),
         h = Math.floor((t % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60)),
         m = Math.floor((t % (1000 * 60 * 60)) / (1000 * 60)),
         s = Math.floor((t % (1000 * 60)) / 1000);
-    return d + ':' + h + ':' + m + ':' + s;
+
+        var fullTime = "";
+
+
+
+    if (h<10){
+        fullTime += "0"+h;
+    }else{
+        fullTime += h;
+    }
+
+    if (m<10){
+        fullTime += ":0"+m;
+    }else{
+        fullTime += ":"+m;
+    }
+
+    if (s<10){
+        fullTime += ":0"+s;
+    }else{
+        fullTime += ":"+s;
+    }
+
+    return d+" Tagen und "+fullTime;
 }
 /*
     compares two swimming pools if they are open and moves the closed ones to the end.
