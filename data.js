@@ -1,5 +1,5 @@
-/*
-    reads the data and writes it to a tab table
+/**
+ * eads the data and writes it to a tab table
  */
 function getData(){
     fetch("badi.json").then(rsp => rsp.json().then(object => {
@@ -44,8 +44,11 @@ function getData(){
     }));
 }
 
-/*
-    converts the date
+
+/**
+ * converts the date
+ * @param date
+ * @returns {number}
  */
 function convertDate(date){
     const splitAll = date.split(' ');
@@ -54,9 +57,12 @@ function convertDate(date){
     return new Date(formateDate).getTime();
 }
 
-/*
-    This piece of code is from: https://codereview.stackexchange.com/q/216914
-    It converts milliseconds to days hours minutes and seconds.
+
+/**
+ * This piece of code is from: https://codereview.stackexchange.com/q/216914
+ * It converts milliseconds to days hours minutes and seconds.
+ * @param t time in milliseconds
+ * @returns {string}
  */
 function dhms(t) {
         d = Math.floor(t / (1000 * 60 * 60 * 24)),
@@ -88,8 +94,12 @@ function dhms(t) {
 
     return d+" Tagen und "+fullTime;
 }
-/*
-    compares two swimming pools if they are open and moves the closed ones to the end.
+
+/**
+ * compares two swimming pools if they are open and moves the closed ones to the end.
+ * @param badi1
+ * @param badi2
+ * @returns {number}
  */
 function compare(badi1,badi2){
     if (badi1.open && badi2.open === false){
@@ -99,8 +109,4 @@ function compare(badi1,badi2){
     }else{
         return 0;
     }
-}
-
-function padTo2Digits(num) {
-    return num.toString().padStart(2, '0');
 }
